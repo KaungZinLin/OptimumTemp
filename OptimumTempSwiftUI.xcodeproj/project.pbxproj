@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E00BA622ABCA29400FD49EA /* AlertKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4E00BA612ABCA29400FD49EA /* AlertKit */; };
 		4E09FC912ABAE3CF003E93E1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E09FC902ABAE3CF003E93E1 /* NetworkManager.swift */; };
-		4E09FC932ABAE899003E93E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E09FC922ABAE899003E93E1 /* Assets.xcassets */; };
 		4EDC38EA2AB8A7E3009158C4 /* OptimumTempSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC38E92AB8A7E3009158C4 /* OptimumTempSwiftUIApp.swift */; };
 		4EDC38EC2AB8A7E3009158C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC38EB2AB8A7E3009158C4 /* ContentView.swift */; };
 		4EDC38F12AB8A7E5009158C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EDC38F02AB8A7E5009158C4 /* Preview Assets.xcassets */; };
@@ -18,6 +18,7 @@
 		4EDC39162AB9CDEA009158C4 /* WeatherKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC39152AB9CDEA009158C4 /* WeatherKitManager.swift */; };
 		4EDC39182AB9D1DD009158C4 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC39172AB9D1DD009158C4 /* LocationManager.swift */; };
 		4EDC391C2AB9DB83009158C4 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC391B2AB9DB83009158C4 /* CalculatorBrain.swift */; };
+		4EF231E32ABC7C9E005E7ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EF231E22ABC7C9E005E7ADB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 
 /* Begin PBXFileReference section */
 		4E09FC902ABAE3CF003E93E1 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		4E09FC922ABAE899003E93E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EDC38E62AB8A7E3009158C4 /* OptimumTempSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptimumTempSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDC38E92AB8A7E3009158C4 /* OptimumTempSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimumTempSwiftUIApp.swift; sourceTree = "<group>"; };
 		4EDC38EB2AB8A7E3009158C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +52,7 @@
 		4EDC39152AB9CDEA009158C4 /* WeatherKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherKitManager.swift; sourceTree = "<group>"; };
 		4EDC39172AB9D1DD009158C4 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		4EDC391B2AB9DB83009158C4 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		4EF231E22ABC7C9E005E7ADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E00BA622ABCA29400FD49EA /* AlertKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				4EDC38EB2AB8A7E3009158C4 /* ContentView.swift */,
-				4E09FC922ABAE899003E93E1 /* Assets.xcassets */,
+				4EF231E22ABC7C9E005E7ADB /* Assets.xcassets */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,6 +173,9 @@
 			dependencies = (
 			);
 			name = OptimumTempSwiftUI;
+			packageProductDependencies = (
+				4E00BA612ABCA29400FD49EA /* AlertKit */,
+			);
 			productName = OptimumTempSwiftUI;
 			productReference = 4EDC38E62AB8A7E3009158C4 /* OptimumTempSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -219,7 +224,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					4EDC38E52AB8A7E3009158C4 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -243,6 +248,9 @@
 				Base,
 			);
 			mainGroup = 4EDC38DD2AB8A7E3009158C4;
+			packageReferences = (
+				4E00BA602ABCA29400FD49EA /* XCRemoteSwiftPackageReference "AlertKit" */,
+			);
 			productRefGroup = 4EDC38E72AB8A7E3009158C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E09FC932ABAE899003E93E1 /* Assets.xcassets in Resources */,
+				4EF231E32ABC7C9E005E7ADB /* Assets.xcassets in Resources */,
 				4EDC38F12AB8A7E5009158C4 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +371,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -423,6 +432,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -447,7 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = "Stable - SOFT LAUNCH";
+				CURRENT_PROJECT_VERSION = Stable;
 				DEVELOPMENT_ASSET_PATHS = "\"OptimumTempSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = BJRLGNB472;
 				ENABLE_PREVIEWS = YES;
@@ -460,12 +470,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kzl.OptimumTempSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -480,7 +490,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = "Stable - SOFT LAUNCH";
+				CURRENT_PROJECT_VERSION = Stable;
 				DEVELOPMENT_ASSET_PATHS = "\"OptimumTempSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = BJRLGNB472;
 				ENABLE_PREVIEWS = YES;
@@ -493,12 +503,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kzl.OptimumTempSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -623,6 +633,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4E00BA602ABCA29400FD49EA /* XCRemoteSwiftPackageReference "AlertKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparrowcode/AlertKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4E00BA612ABCA29400FD49EA /* AlertKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E00BA602ABCA29400FD49EA /* XCRemoteSwiftPackageReference "AlertKit" */;
+			productName = AlertKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4EDC38DE2AB8A7E3009158C4 /* Project object */;
 }
